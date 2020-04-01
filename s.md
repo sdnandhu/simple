@@ -1,0 +1,57 @@
+
+
+
+
+## **UNIT I - ALGORITHMIC PROBLEM SOLVING**
+*Algorithms, building blocks of algorithms (statements, state, control flow, functions), notation (pseudo code, flow chart, programming language), algorithmic problem solving, simple strategies for developing algorithms (iteration, recursion).* 
+***Illustrative problems:*** *find minimum in a list, insert a card in a list of sorted cards, Guess an integer number in a range, Towers of Hanoi.*
+
+### INTRODUCTION 
+A program is a set of instructions that tells the computer how to solve a particular problem. Various program design tools like algorithms, pseudocodes and flowcharts are used to design the blueprint of the solution (or the program to be written). 
+Computer programming goes a step further in problem solving process. Programming means writing computer programs. While programming, the programmers take an algorithm and code the instructions in a particular programming language so that it can be executed by a computer. These days, there are many programming languages available in the market. The programmer can choose any language depending on his expertise and the problem domain
+### ALGORITHMS
+In computing, we focus on the type of problems categorically known as **algorithmic problems**, where their solutions are expressible in the form of algorithms. The term ‘***algorithm***’ was derived from the name of Mohammed al-Khwarizmi, a Persian mathematician in the nineth century (Al-Khwarizmi → Algorism (in Latin) → Algorithm). 
+The typical meaning of an algorithm *is a formally defined procedure for performing some calculation*. If a procedure is formally defined, then it must be implemented using some formal language, and such languages are known as programming languages. The algorithm gives the logic of the program, that is, a step-by-step description of how to arrive at a solution.
+In general terms, ***an algorithm provides a blueprint to writing a program to solve a particular problem. It is considered to be an effective procedure for solving a problem in a finite number of steps.*** That is, a well defined algorithm always provides an answer, and is guaranteed to terminate. Algorithms are mainly used to achieve software reuse. 
+<![endif]-->
+
+**_Real Life Example_**
+**_Procedure to cook Bread Toast_**
+_Step 1 : Grab a loaf of bread_
+_Step 2 : Get a pan and place it on the stove let it heat_
+_Step 3 : Pour some oil on the pan and wait for oil to be heated_
+_Step 4 : Put a slice on the pan and roast until it become brown in shade_
+_Step 5 : Turn the slice and roast until it become brown in shade_
+_Step 5 : Get the toasted bread from the pan and serve it on a plate with anything or nothing._
+
+_The above procedure that explains “how to make a bread toast” and what are all the requirements before we start the procedures. We can code this procedure or algorithm in any programming language of your choice and simulate as results on the computer display. Else we can feed this procedure to the robot with proper instructions and we make the robot to do the bread toast for us._
+
+**_Example :_**
+**Algorithm for adding two numbers:**
+_Step 1 : Get the 2 numbers from the user as input._
+_Step 2 : Perform addition of those 2 numbers._
+_Step 3 : Store the answer for display._
+_Step 4 : Display the stored value to the user._
+
+***Why We need Algorithm***
+Three reasons for using algorithms are efficiency, abstraction and reusability.
+
+**_Efficiency_**: Certain types of problems, like sorting, occur often in computing. Efficient algorithms must be used to solve such problems considering the time and cost factor involved in each algorithm.
+
+**_Abstraction_**: Algorithms provide a level of abstraction in solving problems because many seemingly complicated problems can be distilled into simpler ones for which well known algorithms exist. Once we see a more complicated problem in a simpler light, we can think of the simpler problem as just an abstraction of the more complicated one. For example, imagine trying to find the shortest way to route a packet between two gateways in an internet. Once we realize that this problem is just a variation of the more general shortest path problem, we can solve it using the generalised approach.
+
+**_Reusability_**: Algorithms are often reusable in many different situations. Since many well-known algorithms are the generalizations of more complicated ones, and since many complicated problems can be distilled into simpler ones, an efficient means of solving certain simpler problems potentially lets us solve many complicated problems.
+
+### Characteristics of Algorithm
+•Precision: The instructions should be written in a precise manner. 
+•Uniqueness: The outputs of each step should be unambiguous, i.e., they should be unique and only depend on the input and the output of the preceding steps. 
+• Finiteness: Not even a single instruction must be repeated infinitely.
+•Effectiveness: The algorithm should designed in such a way that it should be the most effective among many different ways to solve a problem. 
+• Input: The algorithm must receive an input. 
+• Output: After the algorithm gets terminated, the desired result must be obtained.
+ • Generality: The algorithm can be applied to various set of inputs
+
+### BUILDING BLOCKS OF ALGORITHM (INSTRUCTIONS, STATE, CONTROL FLOW, FUNCTIONS)
+An algorithm starts from an initial state with some input. The instructions/statements describe the processing that must be done on the input to produce the final output (the final state). Note that an instruction is a single operation which when executed converts one state to other. In the course of processing, data is read from an input device, stored in computer’s memory for further processing, and then the result of the processing is written to an output device. The data is stored in the computer’s memory in the form of variables or constants. 
+The state of an algorithm is defined as its condition regarding current values or contents of the stored data. An algorithm is a list of precise steps and the order of steps determines the functioning of the algorithm. 
+The flow of control (or the control flow) of an algorithm can be specified as top-down or bottom-up approach. Thus, the flow of control specifies the order in which individual instructions of an algorithm are executed.
