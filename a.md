@@ -1,10 +1,7 @@
-<html>
-<body class="stackedit">
+
 <p><a href="javascript:(function()%7Blink%20%3D%20window.location.href%20%3Bpreview%20%3D%20%22https%3A%2F%2F
 	htmlpreview.github.io%2F%3F%22%2Blink%3Bwindow.open(preview%2C%20%22_blank%22)%7D)()">preview</a></p>
-
 	
-
 ## **UNIT I - ALGORITHMIC PROBLEM SOLVING**
 *Algorithms, building blocks of algorithms (statements, state, control flow, functions), notation (pseudo code, flow chart, programming language), algorithmic problem solving, simple strategies for developing algorithms (iteration, recursion).* 
 ***Illustrative problems:*** *find minimum in a list, insert a card in a list of sorted cards, Guess an integer number in a range, Towers of Hanoi.*
@@ -53,19 +50,3 @@ Three reasons for using algorithms are efficiency, abstraction and reusability.
 • Input: The algorithm must receive an input. 
 • Output: After the algorithm gets terminated, the desired result must be obtained.
  • Generality: The algorithm can be applied to various set of inputs
-
-### BUILDING BLOCKS OF ALGORITHM (INSTRUCTIONS, STATE, CONTROL FLOW, FUNCTIONS)
-An algorithm starts from an initial state with some input. The instructions/statements describe the processing that must be done on the input to produce the final output (the final state). Note that an instruction is a single operation which when executed converts one state to other. In the course of processing, data is read from an input device, stored in computer’s memory for further processing, and then the result of the processing is written to an output device. The data is stored in the computer’s memory in the form of variables or constants. 
-The state of an algorithm is defined as its condition regarding current values or contents of the stored data. An algorithm is a list of precise steps and the order of steps determines the functioning of the algorithm. 
-The flow of control (or the control flow) of an algorithm can be specified as top-down or bottom-up approach. Thus, the flow of control specifies the order in which individual instructions of an algorithm are executed.
-
-<table>
-	<tbody><tr>
-		<td>hello</td>
-	<td>world</td></tr>
-	
-</tbody></table>
-</div>
-</body>
-
-</html>
