@@ -1,7 +1,7 @@
-'''
+```
 #find minimum of two numbers
 #a and b are parameters''
-def find_min(a, b):
+'''def find_min(a, b):
     if a < b:
         return a
     return b
@@ -9,10 +9,11 @@ def find_min(a, b):
 print("Enter two values :")
 a, b = int(input().split())
 print("Minimum number is ", find_min(a,b))
-
+'''
 
 #find minimum of three numbers
-a, b and c are parameters
+#a, b and c are parameters
+'''
 def min_of_three(a, b, c):
     minVal = find_min(a,b)
     if c < minVal:
