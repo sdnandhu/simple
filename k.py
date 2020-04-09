@@ -23,7 +23,6 @@ def min_of_three(a, b, c):
 print("Enter three numbers: ")
 a, b, c = int(input().split())
 print("Minimum number is ", min_of_three(a, b, c));
-
 '''
 
 #find minimum of a list
@@ -48,3 +47,4 @@ for i in range(limit):
     
 print("Minimum of list is ", min_of_list(myList))
 
+```
