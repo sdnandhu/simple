@@ -1,4 +1,4 @@
 # simple
 
 
-![Image description] (https://github.com/sdnandhu/simple/edit/master/Capture.PNG)
+![Image description] (https://github.com/sdnandhu/simple/Capture.PNG)
