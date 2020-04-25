@@ -44,11 +44,17 @@ Three reasons for using algorithms are efficiency, abstraction and reusability.
 
 ### Characteristics of Algorithm
 •Precision: The instructions should be written in a precise manner. 
+
 •Uniqueness: The outputs of each step should be unambiguous, i.e., they should be unique and only depend on the input and the output of the preceding steps. 
+
 • Finiteness: Not even a single instruction must be repeated infinitely.
+
 •Effectiveness: The algorithm should designed in such a way that it should be the most effective among many different ways to solve a problem. 
+
 • Input: The algorithm must receive an input. 
+
 • Output: After the algorithm gets terminated, the desired result must be obtained.
+
  • Generality: The algorithm can be applied to various set of inputs
 
 ### BUILDING BLOCKS OF ALGORITHM (INSTRUCTIONS, STATE, CONTROL FLOW, FUNCTIONS)
@@ -411,6 +417,9 @@ Now that we have looked as some of the pros and cons of flowcharts relative to p
 
 The shape of the block may convey additional information about what is happening. For instance, a rectangular block is frequently used to indicated that a computation is occurring while a slanted parallelogram is used to indicate some type of input or output operation. The diversity of shapes that can be used and what they mean is staggering - for instance a different shape can be used to indicated output to a tape drive versus to a hard disk or to indicate output in text format verses binary format. By using such highly specialized symbols, much of what is happening can be conveyed by the symbols themselves. But the power of using these distinctions is generally only useful to people that work with flowcharts continuously, professionally, and who are describing very large and complex systems. At our level, it is far better to restrict ourselves to a minimum number of shapes and explicitly indicate any information that otherwise might have been implied by using a different shape.
 
+
+![flowchart symbols](https://github.com/sdnandhu/simple/blob/master/flowchart_symbols.png)
+
 **_Circle - Entry/Exit Point_**
 
 The circle indicates the entry and exit point for the program - or for the current segment of the program. The entry point has exactly one arrow leaving it and the exit point has exactly one arrow entering it. Execution of the program - or of that segment of the program - always starts at the entry point and finishes at the exit point.
@@ -434,14 +443,19 @@ The diamond represents a decision point within our program. A question is asked 
 The arrows simply show which symbol gets executed next. The rule is that once an arrow leaves a symbol, it must lead directly to exactly one other symbol - arrows can never fork and diverge. They can, however, converge and join arrows coming from other blocks.
 
 ####  Examples ####
- ***Sum of two numbers flow chart***
-![Alt](sum_of_two_nos.jpg)
-***Finding number is even or odd***
-![Alt](odd_even.jpg)
-***Program to Find a factorial of the given number***
-![Alt](fact.jpg)
 
-<![endif]-->
+ ***Sum of two numbers flow chart***
+ 
+![sum of two nos](sum_of_two_numbers.png)
+
+***Finding number is even or odd***
+
+![odd or even](odd_even.png)
+
+***Program to Find a factorial of the given number***
+
+![factorial](factorial.png)
+
 
 **programming language notation**
 
@@ -542,7 +556,7 @@ End Loop
 PRINT result
 End
 
-<![endif]-->
+
 
 **Recursive Algorithm**
 
